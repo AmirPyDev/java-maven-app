@@ -1,6 +1,6 @@
-pipeline
-
-agent any
+pipeline 
+{
+    agent any
     tools {
         maven 'maven-3.9'
     }
@@ -25,11 +25,13 @@ agent any
                 }
             }
         }
-    }
-        stage {
+    
+        stage("deploy") {
             steps {
                 script {
                     echo "deploying the application"
                 }
             }
         }
+    }
+}

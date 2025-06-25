@@ -3,14 +3,14 @@
 pipeline {
     agent any
     parameters {
-        choice(name: 'VERSIONS', defaultValue: ['1.0.0', '1.0.1', '1.0.2'], description: '')
+        choice(name: 'VERSION', choices: ['1.0.0', '1.0.1', '1.0.2'], description: '')
         booleanParam(name: 'executeTest', defaultValue: true, description: '')
     }
     stages {
         stage('build') {
             steps {
                 script {
-                    echo "Building the juice..."
+                    echo "Building the version: ${params.VERSION}"
                 }
             }
         }

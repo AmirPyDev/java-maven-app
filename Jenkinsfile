@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the application..."
-                    echo "Testing the application..."
+                    echo "Testing if feature branch working"
                 }
             }
         }

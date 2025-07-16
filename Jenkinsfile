@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the application..."
-                    echo "Testing chachu 2.0"
+                    echo "Testing chachu 3.0"
                 }
             }
         }

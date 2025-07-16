@@ -6,7 +6,7 @@ pipeline {
         stage('test') {
             steps {
                 script {
-                    echo "Testing the application millionth"
+                    echo "Testing the application millionth times"
                     echo "Executing pipeline for branch ${env.BRANCH_NAME}"
                 }
             }

@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the application in main again"
-                    echo "Executing pipeline for branch $BRANCH_NAME"
+                    echo "Executing pipeline for branch ${env.BRANCH_NAME}"
                 }
             }
         }

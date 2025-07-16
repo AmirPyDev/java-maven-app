@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the application with github-creds"
-                    checkout scmGit(branches: [[name: '*/jenkins-jobs']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-pat-token', url: 'https://github.com/AmirPyDev/java-maven-app.git']])
+                    
                 }
             }
         }

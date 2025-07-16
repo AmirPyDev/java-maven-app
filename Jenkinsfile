@@ -6,7 +6,7 @@ pipeline {
         stage('test') {
             steps {
                 script {
-                    echo "Testing the application with github-creds"
+                    echo "Testing the application again xD"
                     
                 }
             }

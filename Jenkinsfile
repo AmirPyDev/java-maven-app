@@ -31,7 +31,7 @@ pipeline {
             }            
             steps {
                 script {
-                    echo "Deploying the application for xDDD"
+                    echo "Deploying the application after elastic ip"
                 }
             }
         }

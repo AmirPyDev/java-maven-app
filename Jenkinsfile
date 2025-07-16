@@ -31,7 +31,7 @@ pipeline {
             }            
             steps {
                 script {
-                    echo "Deploying the application in main hehe xD"
+                    echo "Deploying the application for multi branch"
                 }
             }
         }

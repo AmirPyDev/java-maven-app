@@ -31,7 +31,7 @@ pipeline {
             }            
             steps {
                 script {
-                    echo "Deploying the application for idk"
+                    echo "Deploying the application for xDDD"
                 }
             }
         }

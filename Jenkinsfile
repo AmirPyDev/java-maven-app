@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing the application..."
-                    echo "Testing chachu 4.0"
+                    checkout scmGit(branches: [[name: '*/jenkins-jobs']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-pat-token', url: 'https://github.com/AmirPyDev/java-maven-app.git']])
                 }
             }
         }
